@@ -5,14 +5,6 @@
 #### Overview
 "Neural Style Transfer" is a Jupyter notebook that demonstrates the application of Neural Style Transfer (NST), a fascinating technique in the field of deep learning. NST blends the content of one image with the style of another using Convolutional Neural Networks (CNNs). This process creates a unique, synthesized image that retains the content of the target image but mimics the artistic style of the source image.
 
-#### Prerequisites
-To run the notebook effectively, you will need:
-- Python 3.6 or higher
-- TensorFlow 2.x
-- Keras (usually comes with TensorFlow)
-- NumPy
-- Matplotlib
-- PIL (Python Imaging Library)
 
 #### Setup
 1. **Install Python**: Make sure Python 3.6 or higher is installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
@@ -29,9 +21,28 @@ To run the notebook effectively, you will need:
 3. **Install Dependencies**:
    - Ensure pip is up-to-date: `pip install --upgrade pip`
    - Install the required packages:
-     ```bash
-     pip install tensorflow numpy matplotlib pillow
-     ```
+   ### Required Libraries
+   You can install the required libraries using `pip` and the provided `requirements.txt` file:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   #### List of Dependencies
+   - `os`
+   - `cv2` (OpenCV)
+   - `shutil`
+   - `random`
+   - `tensorflow`
+   - `keras`
+   - `PIL` (Pillow)
+   - `numpy`
+   - `pandas`
+   - `matplotlib`
+   - `scikit-learn` (for `shuffle`)
+   - `functools`
+   - `IPython.display`
+
 
 4. **Download the Notebook**:
    - Download the "Neural Style Transfer" notebook from the provided source.
